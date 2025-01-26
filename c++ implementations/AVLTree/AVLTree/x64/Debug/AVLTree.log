@@ -1,0 +1,17 @@
+﻿  AVLTree.cpp
+E:\ModPerfEv in C++\AVLTree\AVLTree\AVLTree.cpp(286,27): warning C4244: 'initializing': conversion from '_Rep' to 'double', possible loss of data
+E:\ModPerfEv in C++\AVLTree\AVLTree\AVLTree.cpp(286,27): warning C4244:         with
+E:\ModPerfEv in C++\AVLTree\AVLTree\AVLTree.cpp(286,27): warning C4244:         [
+E:\ModPerfEv in C++\AVLTree\AVLTree\AVLTree.cpp(286,27): warning C4244:             _Rep=__int64
+E:\ModPerfEv in C++\AVLTree\AVLTree\AVLTree.cpp(286,27): warning C4244:         ]
+E:\ModPerfEv in C++\AVLTree\AVLTree\AVLTree.cpp(304,27): warning C4244: 'initializing': conversion from '_Rep' to 'double', possible loss of data
+E:\ModPerfEv in C++\AVLTree\AVLTree\AVLTree.cpp(304,27): warning C4244:         with
+E:\ModPerfEv in C++\AVLTree\AVLTree\AVLTree.cpp(304,27): warning C4244:         [
+E:\ModPerfEv in C++\AVLTree\AVLTree\AVLTree.cpp(304,27): warning C4244:             _Rep=__int64
+E:\ModPerfEv in C++\AVLTree\AVLTree\AVLTree.cpp(304,27): warning C4244:         ]
+E:\ModPerfEv in C++\AVLTree\AVLTree\AVLTree.cpp(322,27): warning C4244: 'initializing': conversion from '_Rep' to 'double', possible loss of data
+E:\ModPerfEv in C++\AVLTree\AVLTree\AVLTree.cpp(322,27): warning C4244:         with
+E:\ModPerfEv in C++\AVLTree\AVLTree\AVLTree.cpp(322,27): warning C4244:         [
+E:\ModPerfEv in C++\AVLTree\AVLTree\AVLTree.cpp(322,27): warning C4244:             _Rep=__int64
+E:\ModPerfEv in C++\AVLTree\AVLTree\AVLTree.cpp(322,27): warning C4244:         ]
+  AVLTree.vcxproj -> E:\ModPerfEv in C++\AVLTree\x64\Debug\AVLTree.exe
