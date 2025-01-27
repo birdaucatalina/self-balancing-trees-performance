@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Repo git\\self-balancing-trees-performance\\c\u002B\u002B implementations\\RBTree\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{380CEA47-F8EA-4511-BFA0-9A0A56D37BB5}|RBTree\\RBTree.vcxproj|E:\\Repo git\\self-balancing-trees-performance\\c\u002B\u002B implementations\\RBTree\\RBTree\\RBTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{380CEA47-F8EA-4511-BFA0-9A0A56D37BB5}|RBTree\\RBTree.vcxproj|solutionrelative:RBTree\\RBTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380CEA47-F8EA-4511-BFA0-9A0A56D37BB5}|RBTree\\RBTree.vcxproj|E:\\Repo git\\self-balancing-trees-performance\\c\u002B\u002B implementations\\RBTree\\RBTree\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{380CEA47-F8EA-4511-BFA0-9A0A56D37BB5}|RBTree\\RBTree.vcxproj|solutionrelative:RBTree\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "input.txt",
+              "DocumentMoniker": "E:\\Repo git\\self-balancing-trees-performance\\c\u002B\u002B implementations\\RBTree\\RBTree\\input.txt",
+              "RelativeDocumentMoniker": "RBTree\\input.txt",
+              "ToolTip": "E:\\Repo git\\self-balancing-trees-performance\\c\u002B\u002B implementations\\RBTree\\RBTree\\input.txt",
+              "RelativeToolTip": "RBTree\\input.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-27T03:08:33.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RBTree.cpp",
+              "DocumentMoniker": "E:\\Repo git\\self-balancing-trees-performance\\c\u002B\u002B implementations\\RBTree\\RBTree\\RBTree.cpp",
+              "RelativeDocumentMoniker": "RBTree\\RBTree.cpp",
+              "ToolTip": "E:\\Repo git\\self-balancing-trees-performance\\c\u002B\u002B implementations\\RBTree\\RBTree\\RBTree.cpp",
+              "RelativeToolTip": "RBTree\\RBTree.cpp",
+              "ViewState": "AgIAABQBAAAAAAAAAAAgwCMBAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-26T22:41:37.104Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

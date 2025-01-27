@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\ModPerfEv in C\u002B\u002B\\AVLTree\\",
+  "WorkspaceRootPath": "E:\\Repo git\\self-balancing-trees-performance\\c\u002B\u002B implementations\\AVLTree\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF9699D2-B6B1-488A-BD54-AB3C95794ED6}|AVLTree\\AVLTree.vcxproj|E:\\ModPerfEv in C\u002B\u002B\\AVLTree\\AVLTree\\AVLTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{EF9699D2-B6B1-488A-BD54-AB3C95794ED6}|AVLTree\\AVLTree.vcxproj|E:\\Repo git\\self-balancing-trees-performance\\c\u002B\u002B implementations\\AVLTree\\AVLTree\\AVLTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EF9699D2-B6B1-488A-BD54-AB3C95794ED6}|AVLTree\\AVLTree.vcxproj|solutionrelative:AVLTree\\AVLTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF9699D2-B6B1-488A-BD54-AB3C95794ED6}|AVLTree\\AVLTree.vcxproj|E:\\Repo git\\self-balancing-trees-performance\\c\u002B\u002B implementations\\AVLTree\\AVLTree\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EF9699D2-B6B1-488A-BD54-AB3C95794ED6}|AVLTree\\AVLTree.vcxproj|solutionrelative:AVLTree\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "input.txt",
+              "DocumentMoniker": "E:\\Repo git\\self-balancing-trees-performance\\c\u002B\u002B implementations\\AVLTree\\AVLTree\\input.txt",
+              "RelativeDocumentMoniker": "AVLTree\\input.txt",
+              "ToolTip": "E:\\Repo git\\self-balancing-trees-performance\\c\u002B\u002B implementations\\AVLTree\\AVLTree\\input.txt",
+              "RelativeToolTip": "AVLTree\\input.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAm5gAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-27T01:39:21.8Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AVLTree.cpp",
-              "DocumentMoniker": "E:\\ModPerfEv in C\u002B\u002B\\AVLTree\\AVLTree\\AVLTree.cpp",
+              "DocumentMoniker": "E:\\Repo git\\self-balancing-trees-performance\\c\u002B\u002B implementations\\AVLTree\\AVLTree\\AVLTree.cpp",
               "RelativeDocumentMoniker": "AVLTree\\AVLTree.cpp",
-              "ToolTip": "E:\\ModPerfEv in C\u002B\u002B\\AVLTree\\AVLTree\\AVLTree.cpp",
+              "ToolTip": "E:\\Repo git\\self-balancing-trees-performance\\c\u002B\u002B implementations\\AVLTree\\AVLTree\\AVLTree.cpp",
               "RelativeToolTip": "AVLTree\\AVLTree.cpp",
-              "ViewState": "AgIAACYBAAAAAAAAAAAAAEcBAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAgwAUBAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-26T18:44:14.023Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

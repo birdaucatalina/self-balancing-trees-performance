@@ -258,6 +258,9 @@ int main() {
     Node* root = nullptr;
     vector<int> values; // To store the numbers from the file
 
+    int searchKey = 13032;
+    int deleteKey = 13032;
+
     // Open the input file
     ifstream file("input.txt");
     if (!file.is_open()) {
@@ -287,13 +290,12 @@ int main() {
     cout << fixed << setprecision(3) << "Time taken for insertion: " << durationInsert / 1000.0 << " microseconds" << endl;
 
 
-    // Display the tree (in-order traversal)
-    cout << "In-order traversal of the AVL tree: ";
-    inOrder(root);
-    cout << endl;
+    //// Display the tree (in-order traversal)
+    //cout << "In-order traversal of the AVL tree: ";
+    //inOrder(root);
+    //cout << endl;
 
     // Search for a key
-    int searchKey = 12;
     printMemoryUsage("Before search:"); // Check memory usage before search
     auto startTimeSearch = chrono::high_resolution_clock::now(); // Start timing
     Node* result = search(root, searchKey);
@@ -311,7 +313,6 @@ int main() {
         cout << "Key " << searchKey << " not found!" << endl;
 
     // Delete a key
-    int deleteKey = 18;
     printMemoryUsage("Before deletion:"); // Check memory usage before delete
     auto startTimeDelete = chrono::high_resolution_clock::now(); // Start timing
     root = deleteNode(root, deleteKey);
@@ -322,9 +323,9 @@ int main() {
     double durationDelete = chrono::duration_cast<chrono::nanoseconds>(endTimeDelete - startTimeDelete).count();
     cout << fixed << setprecision(3) << "Time taken for deletion of a key: " << durationDelete / 1000.0 << " microseconds" << endl;
 
-    cout << "In-order traversal after deletion: ";
+    /*cout << "In-order traversal after deletion: ";
     inOrder(root);
-    cout << endl;
+    cout << endl;*/
     
     return 0;
 }

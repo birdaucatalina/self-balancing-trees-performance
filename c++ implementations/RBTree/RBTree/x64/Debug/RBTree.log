@@ -1,0 +1,17 @@
+﻿  RBTree.cpp
+E:\Repo git\self-balancing-trees-performance\c++ implementations\RBTree\RBTree\RBTree.cpp(319,27): warning C4244: 'initializing': conversion from '_Rep' to 'double', possible loss of data
+E:\Repo git\self-balancing-trees-performance\c++ implementations\RBTree\RBTree\RBTree.cpp(319,27): warning C4244:         with
+E:\Repo git\self-balancing-trees-performance\c++ implementations\RBTree\RBTree\RBTree.cpp(319,27): warning C4244:         [
+E:\Repo git\self-balancing-trees-performance\c++ implementations\RBTree\RBTree\RBTree.cpp(319,27): warning C4244:             _Rep=__int64
+E:\Repo git\self-balancing-trees-performance\c++ implementations\RBTree\RBTree\RBTree.cpp(319,27): warning C4244:         ]
+E:\Repo git\self-balancing-trees-performance\c++ implementations\RBTree\RBTree\RBTree.cpp(335,27): warning C4244: 'initializing': conversion from '_Rep' to 'double', possible loss of data
+E:\Repo git\self-balancing-trees-performance\c++ implementations\RBTree\RBTree\RBTree.cpp(335,27): warning C4244:         with
+E:\Repo git\self-balancing-trees-performance\c++ implementations\RBTree\RBTree\RBTree.cpp(335,27): warning C4244:         [
+E:\Repo git\self-balancing-trees-performance\c++ implementations\RBTree\RBTree\RBTree.cpp(335,27): warning C4244:             _Rep=__int64
+E:\Repo git\self-balancing-trees-performance\c++ implementations\RBTree\RBTree\RBTree.cpp(335,27): warning C4244:         ]
+E:\Repo git\self-balancing-trees-performance\c++ implementations\RBTree\RBTree\RBTree.cpp(352,27): warning C4244: 'initializing': conversion from '_Rep' to 'double', possible loss of data
+E:\Repo git\self-balancing-trees-performance\c++ implementations\RBTree\RBTree\RBTree.cpp(352,27): warning C4244:         with
+E:\Repo git\self-balancing-trees-performance\c++ implementations\RBTree\RBTree\RBTree.cpp(352,27): warning C4244:         [
+E:\Repo git\self-balancing-trees-performance\c++ implementations\RBTree\RBTree\RBTree.cpp(352,27): warning C4244:             _Rep=__int64
+E:\Repo git\self-balancing-trees-performance\c++ implementations\RBTree\RBTree\RBTree.cpp(352,27): warning C4244:         ]
+  RBTree.vcxproj -> E:\Repo git\self-balancing-trees-performance\c++ implementations\RBTree\x64\Debug\RBTree.exe

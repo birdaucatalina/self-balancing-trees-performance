@@ -1,12 +1,11 @@
 package com.ace.ucv.selfbalancingtrees;
 
 import java.io.*;
-import java.util.Random;
 
 public class FileUtils {
 
-    // Read integers from a file in resources and insert them into the AVL tree
-    public static void readFromResources(String filename, AVLTree tree) throws IOException {
+    // Read integers from a file in resources and insert them into the tree
+    public static void readFromResourcesAndInsert(String filename, SelfBalancingTree tree) throws IOException {
         try (InputStream is = FileUtils.class.getClassLoader().getResourceAsStream(filename)) {
             if (is == null) {
                 throw new FileNotFoundException("Resource file not found: " + filename);
@@ -36,6 +35,6 @@ public class FileUtils {
                 System.out.println("Memory used after insert: " + memoryAfterInsert / 1024 + " KB"); 
             }
         }
-        System.out.println("Data successfully loaded into AVL tree from " + filename);
+        System.out.println("Data successfully loaded into tree from " + filename);
     }
 }

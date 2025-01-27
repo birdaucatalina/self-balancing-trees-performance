@@ -1,13 +1,13 @@
 package com.ace.ucv.selfbalancingtrees;
 
-public class AVLTree {
-    private Node root;
+public class AVLTree implements SelfBalancingTree {
+    private NodeAVL root;
 
-    public Node getRoot() {
+    public NodeAVL getRoot() {
         return root;
     }
 
-    public void setRoot(Node root) {
+    public void setRoot(NodeAVL root) {
         this.root = root;
     }
 
@@ -17,9 +17,9 @@ public class AVLTree {
     }
 
     // Recursive method to insert a key and balance the tree
-    public Node insert(Node node, int key) {
+    public NodeAVL insert(NodeAVL node, int key) {
         if (node == null) {
-            return new Node(key);
+            return new NodeAVL(key);
         }
 
         if (key < node.getKey()) {
@@ -57,9 +57,9 @@ public class AVLTree {
         return node;
     }
 
-    private Node rotateRight(Node y) {
-        Node x = y.getLeft();
-        Node T = x.getRight();
+    private NodeAVL rotateRight(NodeAVL y) {
+        NodeAVL x = y.getLeft();
+        NodeAVL T = x.getRight();
 
         x.setRight(y);
         y.setLeft(T);
@@ -70,9 +70,9 @@ public class AVLTree {
         return x;
     }
 
-    private Node rotateLeft(Node x) {
-        Node y = x.getRight();
-        Node T = y.getLeft();
+    private NodeAVL rotateLeft(NodeAVL x) {
+        NodeAVL y = x.getRight();
+        NodeAVL T = y.getLeft();
 
         y.setLeft(x);
         x.setRight(T);
@@ -83,11 +83,11 @@ public class AVLTree {
         return y;
     }
 
-    private int height(Node node) {
+    private int height(NodeAVL node) {
         return (node == null) ? 0 : node.getHeight();
     }
 
-    private int getBalance(Node node) {
+    private int getBalance(NodeAVL node) {
         return (node == null) ? 0 : height(node.getLeft()) - height(node.getRight());
     }
 
@@ -95,7 +95,7 @@ public class AVLTree {
         inOrderTraversal(root);
     }
 
-    private void inOrderTraversal(Node node) {
+    private void inOrderTraversal(NodeAVL node) {
         if (node != null) {
             inOrderTraversal(node.getLeft());
             System.out.print(node.getKey() + " ");
@@ -103,7 +103,7 @@ public class AVLTree {
         }
     }
 
-    public void printTree(Node node, String prefix, boolean isLeft) {
+    public void printTree(NodeAVL node, String prefix, boolean isLeft) {
         if (node != null) {
             System.out.println(prefix + (isLeft ? "|--- " : "|__ ") + node.getKey());
             printTree(node.getLeft(), prefix + (isLeft ? "|   " : "    "), true);
@@ -117,7 +117,7 @@ public class AVLTree {
     }
 
     // Recursive method to delete a key and balance the tree
-    public Node delete(Node node, int key) {
+    public NodeAVL delete(NodeAVL node, int key) {
         // STEP 1: Perform normal BST delete
         if (node == null) {
             return node;
@@ -178,7 +178,7 @@ public class AVLTree {
     }
 
     // Helper function to get the minimum value node in the tree
-    private int minValue(Node node) {
+    private int minValue(NodeAVL node) {
         int minValue = node.getKey();
         while (node.getLeft() != null) {
             minValue = node.getLeft().getKey();
@@ -193,7 +193,7 @@ public class AVLTree {
     }
 
     // Recursive method to search for a key
-    private boolean search(Node node, int key) {
+    private boolean search(NodeAVL node, int key) {
         // Base case: node is null or the key is found
         if (node == null) {
             return false;

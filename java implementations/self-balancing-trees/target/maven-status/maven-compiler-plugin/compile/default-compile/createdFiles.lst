@@ -1,4 +1,7 @@
 com\ace\ucv\selfbalancingtrees\FileUtils.class
 com\ace\ucv\selfbalancingtrees\ApplicationMain.class
-com\ace\ucv\selfbalancingtrees\Node.class
 com\ace\ucv\selfbalancingtrees\AVLTree.class
+com\ace\ucv\selfbalancingtrees\RedBlackTree.class
+com\ace\ucv\selfbalancingtrees\SelfBalancingTree.class
+com\ace\ucv\selfbalancingtrees\NodeAVL.class
+com\ace\ucv\selfbalancingtrees\NodeRB.class
